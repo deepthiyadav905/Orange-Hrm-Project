@@ -1,0 +1,26 @@
+# Maven
+target/
+
+# Logs
+logs/
+*.log
+
+# Reports
+reports/
+test-output/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IntelliJ (optional)
+.idea/
+
+# Extent Reports
+*.html
+screenshots/
