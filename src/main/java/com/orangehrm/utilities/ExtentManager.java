@@ -24,10 +24,11 @@ public class ExtentManager {
 
 		if (extent == null) {
 
-			String reportPath = System.getProperty("user.dir") + "/reports/ExtentReport.html";
+			String reportPath = System.getProperty("user.dir") + "/reports/index.html";
 			ExtentSparkReporter spark = new ExtentSparkReporter(reportPath);
 			spark.config().setReportName("Automation Report");
 			spark.config().setDocumentTitle("Test Execution Report");
+			spark.config().setOfflineMode(true); // ⭐ IMPORTANT
 
 			extent = new ExtentReports();
 			extent.attachReporter(spark);
