@@ -23,7 +23,7 @@ public class DummyTest extends BaseClass {
 		// 🔥 START TEST
 		// ExtentManager.startTest("Dummy Test"); --> this has been implemented in
 		// testng listner
-		// ok - testing
+		// ok - testing again
 
 		String title = getDriver().getTitle();
 
